@@ -1,0 +1,30 @@
+{
+  "name": "@oneline/utils",
+  "version": "0.0.3",
+  "description": "> TODO: description",
+  "author": "keep2zero <towaywu@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "repository": "https://github.com/keep2zero/way/tree/master/packages/way-utils",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist", "index.d.ts"
+  ],
+  "types": "index.d.ts",
+  "scripts": {
+    "cwatch": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+  
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14"
+  }
+}

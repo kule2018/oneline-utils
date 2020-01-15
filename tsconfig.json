@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "target": "es6",
+    "sourceMap": true,
+    "types": ["node"],
+    "outDir": "dist",
+    "lib": ["es2017", "es2015"],
+    "baseUrl": ".",
+    "paths": {
+       
+    }
+
+    // "downlevelIteration": true
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["dist", "node_modules"]
+}
