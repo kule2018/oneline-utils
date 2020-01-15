@@ -1,13 +1,13 @@
 {
   "name": "@oneline/utils",
   "version": "0.0.3",
-  "description": "> TODO: description",
+  "description": "oneline工具库",
   "author": "keep2zero <towaywu@gmail.com>",
   "homepage": "",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "repository": "https://github.com/keep2zero/way/tree/master/packages/way-utils",
+  "repository": "https://github.com/onelineteam/oneline-utils.git",
   "directories": {
     "lib": "lib"
   },
