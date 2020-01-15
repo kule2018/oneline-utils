@@ -9,8 +9,7 @@
   "module": "dist/index.js",
   "repository": "https://github.com/keep2zero/way/tree/master/packages/way-utils",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "dist", "index.d.ts"
