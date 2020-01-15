@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "oneline工具库",
   "author": "keep2zero <towaywu@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/onelineteam/oneline-utils#README",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.js",
