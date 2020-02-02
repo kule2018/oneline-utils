@@ -1,6 +1,6 @@
 {
   "name": "@oneline/utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "oneline工具库",
   "author": "keep2zero <towaywu@gmail.com>",
   "homepage": "https://github.com/onelineteam/oneline-utils#README",
@@ -12,7 +12,8 @@
     "lib": "lib"
   },
   "files": [
-    "dist", "index.d.ts"
+    "dist",
+    "index.d.ts"
   ],
   "types": "index.d.ts",
   "scripts": {
@@ -20,9 +21,7 @@
     "build": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "dependencies": {
-  
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^12.12.14"
   }
