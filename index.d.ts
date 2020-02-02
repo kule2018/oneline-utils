@@ -46,6 +46,7 @@ export  class WayDate {
 
 export class WayArray extends Array {
   judge(char: '&&'|'||', key?: string): boolean;
+  batchBasic(operation: "*"|"/"|"+"|"-", step: number): Array<number>;
 }
 
 

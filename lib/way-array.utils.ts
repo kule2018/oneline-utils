@@ -7,4 +7,14 @@ export class WayArray extends Array {
      }
     return judge;
   }
+
+  batchBasic(operation: "*"|"/"|"+"|"-", step: number): Array<number> {
+    const map = {
+      "*": this.map(item => item * step),
+      "+": this.map(item => item + step),
+      "-": this.map(item => item - step),
+      "/": this.map(item => item / step)
+    };
+    return map[operation];
+  }
 }
